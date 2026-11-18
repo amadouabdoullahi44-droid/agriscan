@@ -1,0 +1,19 @@
+﻿venv/
+__pycache__/
+*.py[cod]
+.env
+db.sqlite3
+staticfiles/
+.vscode/
+.pytest_cache/
+
+# Images téléversées et fichiers temporaires
+media/*
+!media/.gitkeep
+
+# Images écartées
+ecartees/
+
+# Fichiers système
+.DS_Store
+Thumbs.db
